@@ -1,0 +1,85 @@
+body {
+    font-family: 'Luxurious Roman', cursive;
+}
+
+
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+}
+
+.head img{
+    height: 10vh;
+    width: 10vh;
+    margin: 20px 20px;
+   
+}
+
+.head li{
+    list-style: none;
+    /* flex: auto; */
+    float: right;
+    margin: 13px 20px;
+}
+
+.intro{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    /* margin-left: 78px; */
+    text-align: center; 
+    
+}
+
+.intro a{
+    text-decoration-color: blue;
+    color: black;
+}
+
+#myIntro {
+    margin-top: 40px;
+    font-size: 2rem;
+}
+
+.intro img{
+    flex: auto;
+}
+
+.portfolio_img {
+    height: 60vh;
+    width: 50vh;
+    border: 2px solid gainsboro;
+    border-radius: 1rem;
+}
+
+#serviceTop{
+    text-align: center;
+}
+
+#serviceTop h2{
+    color: blue;
+}
+
+.services{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    margin-left: 20px;
+}
+
+.cols{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+.block {
+    background-color: gainsboro;
+    margin-bottom: 10px;
+    /* opacity: 0.8; */
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,24 @@
+.navbar {
+    flex-direction: column;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+}
+
+#myIntro{
+    font-size: 0.9rem;
+}
+
+/* .myIntro img{
+    height: 30vh;
+    width: 20vh;
+} */
+
+.block{
+    padding: 14px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
+}
